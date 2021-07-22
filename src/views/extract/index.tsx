@@ -26,7 +26,7 @@ const ExtractView: React.FC<IExtractView> = (props) => {
         decelerationRate='fast'
         showsHorizontalScrollIndicator={false}
       >
-        {history.map(transaction => (
+        {props.extractHistory.map(transaction => (
           <Styled.CardWrapper>
             <Styled.Card key={transaction.id} type={transaction.type}>
               {
