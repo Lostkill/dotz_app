@@ -1,0 +1,4 @@
+{
+  "card": { "number": "4321432143214321", "ccv": "1234", "name": "User Name", "valid": "05/2025" },
+  "virtualCard": { "number": "1234 1234 1234 1234", "ccv": "1234", "name": "User Name", "valid": "07/2035"}
+}

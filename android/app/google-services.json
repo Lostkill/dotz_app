@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "109042015216",
+    "project_id": "dotzapp-d04e3",
+    "storage_bucket": "dotzapp-d04e3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:109042015216:android:7f489004aebcd4c432db35",
+        "android_client_info": {
+          "package_name": "com.dotzapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "109042015216-66igf3tv1qtrvc1bhbme31g80cmodamo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWTSK7d2eNfAM_Ahs4MUhMjSouFsgNaBs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "109042015216-66igf3tv1qtrvc1bhbme31g80cmodamo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

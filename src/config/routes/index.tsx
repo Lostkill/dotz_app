@@ -8,6 +8,8 @@ import { RegisterContainer } from '../../containers/register'
 import { HomeContainerExp } from '../../containers/home'
 import { ScannerContainerExp } from '../../containers/scanner'
 import { ExtractContainerExp } from '../../containers/extract'
+import { CardsContainerExp } from '../../containers/cards'
+import { ConverterContainer } from '../../containers/converter'
 
 import { IApplicationState } from '../../@dotzApp/model/types'
 import { IAppRoute } from './types'
@@ -24,6 +26,8 @@ const Routes: React.FC<IAppRoute> = (props) => {
                 <Stack.Screen name="home" component={HomeContainerExp} />
                 <Stack.Screen name="payment" component={ScannerContainerExp} />
                 <Stack.Screen name="extract" component={ExtractContainerExp} />
+                <Stack.Screen name="cards" component={CardsContainerExp} />
+                <Stack.Screen name="converter" component={ConverterContainer} />
               </Fragment>
             )
             : (

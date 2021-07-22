@@ -6,13 +6,13 @@ export default [
     name: 'cards',
     label: 'CARTÕES',
     icon: faIdCard,
-    action: () => console.log('cards')
+    action: (navigator) => navigator.navigate('cards')
   },
   {
     name: 'converter',
     label: 'CONVERSOR',
     icon: faMoneyBillWave,
-    action: () => console.log('converter')
+    action: (navigator) => navigator.navigate('converter')
   },
   {
     name: 'extract',
