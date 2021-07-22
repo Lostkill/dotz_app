@@ -1,0 +1,25 @@
+{
+  "transactions": [
+    { "id": 1, "coinType": "money", "value": 723, "type": "subtract" },
+    { "id": 2, "coinType": "dotz", "value": 231, "type": "subtract" },
+    { "id": 3, "coinType": "dotz", "value": 1980, "type": "adding" },
+    { "id": 4, "coinType": "money", "value": 723, "type": "subtract" },
+    { "id": 5, "coinType": "dotz", "value": 231, "type": "adding" },
+    { "id": 6, "coinType": "dotz", "value": 1980, "type": "subtract" },
+    { "id": 7, "coinType": "money", "value": 723, "type": "adding" },
+    { "id": 10, "coinType": "dotz", "value": 231, "type": "subtract" },
+    { "id": 11, "coinType": "dotz", "value": 1980, "type": "adding" },
+    { "id": 12, "coinType": "money", "value": 723, "type": "subtract" },
+    { "id": 13, "coinType": "dotz", "value": 231, "type": "adding" },
+    { "id": 14, "coinType": "dotz", "value": 1980, "type": "adding" },
+    { "id": 15, "coinType": "money", "value": 723, "type": "adding" },
+    { "id": 16, "coinType": "dotz", "value": 231, "type": "subtract" },
+    { "id": 17, "coinType": "dotz", "value": 1980, "type": "subtract" },
+    { "id": 18, "coinType": "money", "value": 723, "type": "adding" },
+    { "id": 19, "coinType": "dotz", "value": 231, "type": "subtract" },
+    { "id": 20, "coinType": "dotz", "value": 1980, "type": "subtract" },
+    { "id": 21, "coinType": "money", "value": 723, "type": "subtract" },
+    { "id": 22, "coinType": "dotz", "value": 231, "type": "subtract" },
+    { "id": 23, "coinType": "dotz", "value": 1980, "type": "subtract" }
+  ]
+}
