@@ -1,7 +1,7 @@
 import { action } from 'typesafe-actions'
 import { ExtractTypes } from './types'
 
-const getExtract = () => action(ExtractTypes.GET_EXTRACT)
+const getExtract = (extractHistory) => action(ExtractTypes.GET_EXTRACT(extractHistory))
 
 export {
   getExtract

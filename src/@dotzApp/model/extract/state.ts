@@ -1,8 +1,5 @@
 interface ExtractState {
-  readonly id: number | null
-  coinType: string,
-  value: number | null,
-  type: string
+  transactions: Array<{}>
 }
 
 export type { ExtractState }

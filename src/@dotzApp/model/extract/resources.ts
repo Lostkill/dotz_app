@@ -1,5 +1,15 @@
-import data from './data.json'
+import extractData from './data.json'
+import { store } from '../../../config/store'
+import { getExtract } from '../../viewModel/extract'
 
-export const loginAuthentication = () => {
-  return new (Promise.resolve as any)(data.transactions)
+const getExtractResource = () => {
+	return new Promise((resolve) => {
+		resolve(extractData.transactions)
+	})
+		.then(data => store.dispatch(getExtract(data)))
+		.catch(err => console.log(err))
+}
+
+export {
+	getExtractResource
 }
